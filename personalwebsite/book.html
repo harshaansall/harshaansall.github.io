@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>
+            Harshaan's Personal Website!
+        </title>
+        <link rel="stylesheet" type="text/css" href="assets/css/bookstyle.css" />
+    </head>
+    <body>
+        <h1>
+            <p id="home" >
+             <a
+             href="file:///Users/harshaansall/Desktop/WDD/FinalProject/personalwebsite/index.html" style="color: rgb(37, 51, 129);"> About Me
+             </a>
+            </p>
+            <p id="edu" >
+                <a
+                href="file:///Users/harshaansall/Desktop/WDD/FinalProject/personalwebsite/edu.html" style="color: rgb(37, 51, 129);"> Education
+                </a>
+               </p>
+            <strong id="title">
+                <u>
+                 <em>Harshaan Sall</em>
+                </u>
+             </strong>
+             <p id="menu">
+                 <a
+                     href="file:///Users/harshaansall/Desktop/WDD/FinalProject/personalwebsite/book.html" style="color: rgb(37, 51, 129);"> Books
+                 </a>
+             </p> 
+             <p id="projects">
+                <a
+                    href="file:///Users/harshaansall/Desktop/WDD/FinalProject/personalwebsite/index.html" style="color: rgb(37, 51, 129);"> Projects
+                </a>
+            </p> 
+         </h1>
+    </body>
+    <div id="book">
+        <div id="book1">
+        <body>
+            <h2>
+                Books I've read recently!
+            </h2>
+            <p>
+                Some books that I have read recently are:
+                <ul>
+                <li>Atomic Habits by James Clear</li>
+                <img class="bookimg" src="assets/img/atomichabits.jpeg" width="75" height="100">
+                <li>Sapiens by Yuval Noah Harari</li>
+                <img class="bookimg" src="assets/img/sapiens.png" width="75" height="100">
+                <li>Rich Dad Poor Dad by Robert Kiyosaki</li>
+                <img class="bookimg" src="assets/img/rdpd.jpeg" width="75" height="100">
+                <li>The Richest Man in Babylon by George S. Clason </li>
+                <img class="bookimg" src="assets/img/babylon.jpeg" width="75" height="100">
+                <li>Total Money Makeover by Dave Ramsey</li>
+                <img class="bookimg" src="assets/img/tmm.jpeg" width="75" height="100">
+                </ul>
+            </p>
+        </body>
+        </div>
+        <div id="book1">
+            <body>
+                <h3>
+                    Random Book Recommendation
+                </h3>
+                <!-- <img id="button" src="assets/img/clickhere.png" width="100" height="100"> -->
+                <button id="button" type="button" onclick="bookGen()"> Click Here</button>
+                <script>
+                    function bookGen()
+                    {
+                        var books = ["Atomic Habits by James Clear","Sapiens by Yuval Noah Harari","Rich Dad Poor Dad by Robert Kiyosaki","The Richest Man in Babylon by George S. Clason", "Total Money Makeover by Dave Ramsey"];
+                        var book = books[Math.floor(Math.random()*books.length)];
+                        alert('My book suggestion is:' + book);
+                    }
+                </script>
+            </body>
+            </div>
+    </div>
+    
+</html>

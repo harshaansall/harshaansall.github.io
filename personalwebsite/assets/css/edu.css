@@ -1,0 +1,71 @@
+body, html {
+    background-color: rgb(49, 104, 156);
+    font-family: nobel, sans-serif;
+	font-style: normal;
+}
+
+#title{
+    font-family: sans-serif;
+    font-style: normal;
+    color:rgb(37, 51, 129);
+}
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(37, 51, 129);
+    text-align: center;
+    background-color: #ececec;
+    border: 10px solid skyblue;
+    padding: .5px;
+}
+
+#edu1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color:rgb(37, 51, 129);
+    background-color: #ececec;
+    border: 20px solid skyblue;
+    padding: .5px;
+    text-align: center;
+}
+
+#edu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#book2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color:rgb(37, 51, 129);
+    background-color: #ececec;
+    border: 20px solid skyblue;
+    padding: .5px;
+    text-align: center;
+}
+
+@keyframes run {
+    from {
+      transform: translateX(0px);
+    }
+    to {
+      transform: translateX(500px);
+    }
+  }
+
+  #bear {
+    display: block;
+    width: 75px;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translateY(-100px);
+    /* TODO: Use animation property with 0.5s duration,
+       ease-in timing function, no delay, repeats 
+       infinitely, and alternates. */
+    animation: run 0.9s ease-in 0s infinite alternate;
+  }
+

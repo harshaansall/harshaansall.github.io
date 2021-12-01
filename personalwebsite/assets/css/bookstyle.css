@@ -1,0 +1,66 @@
+body, html {
+    background-color: rgb(49, 104, 156);
+    font-family: nobel, sans-serif;
+	font-style: normal;
+}
+
+#title{
+    font-family: sans-serif;
+    font-style: normal;
+    color:rgb(37, 51, 129);
+}
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(37, 51, 129);
+    text-align: center;
+    background-color: #ececec;
+    border: 10px solid skyblue;
+    padding: .5px;
+}
+
+#book1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color:rgb(37, 51, 129);
+    background-color: #ececec;
+    border: 20px solid skyblue;
+    padding: .5px;
+    text-align: center;
+}
+
+#book {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#book2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color:rgb(37, 51, 129);
+    background-color: #ececec;
+    border: 20px solid skyblue;
+    padding: .5px;
+    text-align: center;
+}
+
+#button{
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    color:rgb(37, 51, 129);
+    background-color: skyblue;
+    padding: 70px;
+    text-align: center;
+}
+#button:hover{
+    cursor: pointer;
+}
+
+.bookimg:hover{
+    transform: scale(5);
+}
